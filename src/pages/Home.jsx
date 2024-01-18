@@ -3,6 +3,8 @@ import Protest from "../assets/images/protest.jpg";
 import Borne from "../assets/images/tienda.jpeg";
 import Gilet from "../assets/images/gilet.jpg";
 import Nayib from "../assets/images/nayib.webp";
+import France from "../assets/images/france.webp";
+
 import Subprimes from "../assets/images/subprimes.webp";
 import Crash from "../assets/images/crash.jpg";
 import Bank from "../assets/images/bank.jpeg";
@@ -29,22 +31,22 @@ const Home = () => {
     <>
             <Parallax  pages={6}>
 
-        <main className="flex flex-col justify-center mt-[500px]">
+        <main id="#up" className="flex flex-col justify-center mt-[500px]">
 
           <ParallaxLayer  offset={0.3} speed={0.1}>
             {/* Pourquoi Bitcoin */}
             <div className="flex flex-col items-center object-cover ">
               {/* Pourquoi */}
               <div className="flex items-center">
-                <h1 className="text-9xl font-extrabold pr-6">Pourquoi</h1>
+                <h1 className="text-9xl font-extrabold pr-12">Pourquoi</h1>
                 <div className="flex h-44 w-96">
                   <img
                     className="h-44 w-96 rounded-md z-0 grayscale object-cover relative "
-                    src={Gilet}
+                    src={Print}
                   />
                   <img
                     className="h-44 w-96 rounded-md z-40 grayscale object-cover absolute down"
-                    src={Protest}
+                    src={France}
                   />
                 </div>
               </div>
@@ -54,11 +56,11 @@ const Home = () => {
                 <div className="flex h-44 w-[464px]">
                   <img
                     className="h-44 w-[464px] rounded-md z-0 grayscale object-cover relative  "
-                    src={Borne}
+                    src={Lehman}
                   />
                   <img
                     className="h-44 w-[464px] rounded-md z-40 grayscale object-cover absolute down2"
-                    src={Lehman}
+                    src={Gilet}
                   />
                 </div>
                 <h1 className="text-9xl font-extrabold pl-16">Bitcoin</h1>

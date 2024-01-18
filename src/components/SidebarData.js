@@ -1,10 +1,7 @@
 
 
 export const SidebarData = [
-  {
-    title: 'Accueil',
-    path: '/',
-  },
+  
   {
     title: 'Hier',
     path: '/histoiredubitcoin',
@@ -19,7 +16,11 @@ export const SidebarData = [
   },
   {
     title: 'Acheter et utiliser',
-    path: '/',
+    path: '/buy',
+  },
+  {
+    title: 'Témoignages',
+    path: '/temoignages',
   },
   {
     title: 'A propos',
