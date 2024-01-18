@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       <div className="flex flex-col h-full ">
-        <HashRouter basename="/Pourquoi-Bitcoin">
+        <HashRouter>
         
         <Navbar/>
           <Routes>
