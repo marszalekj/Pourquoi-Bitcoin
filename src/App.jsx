@@ -24,6 +24,8 @@ const App = () => {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/home" element={<Home />} />
+            <Route exact path="/Pourquoi-Bitcoin" element={<Home />} />
+
             <Route exact path="/histoiredubitcoin" element={<Hier />} />
             <Route exact path="/temoignages" element={<Temoignages />} />
             <Route exact path="/buy" element={<Buy />} />
