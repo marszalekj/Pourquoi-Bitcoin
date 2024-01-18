@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 
 
@@ -41,7 +41,7 @@ const Navbar = () => {
       </Link>
     </p>
     <div
-      className={`top-0 left-0 w-[20vw] bg-white  p-10 pr-20 text-white fixed h-full z-40  ease-in-out duration-500 ${
+      className={`top-0 left-0 w-[20vw] bg-white  p-10 pr-20 text-white fixed h-full z-40  ease-in-out duration-500 bg-opacity-75 ${
         showSidebar ? "-translate-x-0 " : "-translate-x-full"
       }`}
     >
@@ -50,7 +50,7 @@ const Navbar = () => {
                   <Link to="/" onClick={closeMenu}>
                     <span>Accueil</span>
                   </Link>
-                </li>
+          </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className="text-black text-xl">
