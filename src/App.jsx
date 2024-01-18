@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Hier from "./pages/Hier";
@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       <div className="flex flex-col h-full ">
-        <BrowserRouter basename={`/Pourquoi-Bitcoin`}>
+        <HashRouter basename="/Pourquoi-Bitcoin">
         
         <Navbar/>
           <Routes>
@@ -35,7 +35,7 @@ const App = () => {
             <Route exact path="*" element={<NotFound />} />
           </Routes>
 
-        </BrowserRouter>
+        </HashRouter>
 
       </div>
 
