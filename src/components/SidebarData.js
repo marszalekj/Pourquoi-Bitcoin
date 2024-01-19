@@ -8,11 +8,11 @@ export const SidebarData = [
   },
   {
     title: 'Aujourdhui',
-    path: '/',
+    path: '/aujourdhui',
   },
   {
     title: 'Demain',
-    path: '/',
+    path: '/demain',
   },
   {
     title: 'Acheter et utiliser',

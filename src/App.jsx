@@ -17,7 +17,7 @@ const App = () => {
   
   return (
     <>
-      <div className="flex flex-col h-full ">
+      <div className="flex flex-col">
         <BrowserRouter basename="/Pourquoi-Bitcoin">
         
         <Navbar/>
