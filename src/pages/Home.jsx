@@ -43,10 +43,12 @@ const Home = () => {
                   <img
                     className="h-44 w-96 rounded-md z-0 grayscale object-cover relative "
                     src={Print}
+                    alt="Machine imprimant des billets de banque"
                   />
                   <img
                     className="h-44 w-96 rounded-md z-40 grayscale object-cover absolute down"
                     src={France}
+                    alt="Sticker sur la porte d'une boutique indiquant que Bitcoin est accepté"
                   />
                 </div>
               </div>
@@ -57,10 +59,12 @@ const Home = () => {
                   <img
                     className="h-44 w-[464px] rounded-md z-0 grayscale object-cover relative  "
                     src={Lehman}
+                    alt="Deux hommes portant une plaque Lehman Brothers"
                   />
                   <img
                     className="h-44 w-[464px] rounded-md z-40 grayscale object-cover absolute down2"
                     src={Gilet}
+                    alt="Un gilet jaune avec écrit Buy Bitcoin sur son dos"
                   />
                 </div>
                 <h1 className="text-9xl font-extrabold pl-16">Bitcoin</h1>
@@ -87,6 +91,7 @@ const Home = () => {
               <img
                 className=" h-64 w-[486px] rounded-md grayscale-[50%] z-100  object-cover ml-[40%] shadow-2xl"
                 src={Crash}
+                alt="Trader dépité en salle de marché à Wall Street"
               />
             </ParallaxLayer>
 
@@ -94,6 +99,7 @@ const Home = () => {
               <img
                 className=" h-72 w-[560px] rounded-md grayscale-[50%] z-0  object-cover ml-[55%] shadow-2xl"
                 src={Subprimes}
+                alt="Maisons abandonnées"
               />
             </ParallaxLayer>
 
@@ -101,6 +107,7 @@ const Home = () => {
               <img
                 className=" h-48 w-[382px] rounded-md grayscale-[50%] z-50  object-cover ml-[60%] shadow-2xl"
                 src={Bank}
+                alt="Personne tenant une pancarte People Over Banks"
               />
             </ParallaxLayer>
 
@@ -119,12 +126,14 @@ const Home = () => {
               <img
                 className=" h-64 w-[486px] rounded-md grayscale-[50%] z-50  object-cover ml-[20%] shadow-2xl"
                 src={Anon}
+                alt="Manifestants portant le masque Anonymous"
               />
             </ParallaxLayer>
             <ParallaxLayer offset={2} speed={0.8}>
               <img
                 className=" h-72 w-[560px] rounded-md grayscale-[50%] z-100  object-cover ml-[25%] shadow-2xl "
                 src={Snowden}
+                alt="Photo de Edward Snowden"
               />
             </ParallaxLayer>
 
@@ -143,6 +152,7 @@ const Home = () => {
               <img
                 className=" h-72 w-[560px] rounded-md grayscale-[50%] z-0  object-cover ml-[58%] shadow-2xl"
                 src={Salvador}
+                alt="Boutique acceptant le Bitcoin au Salvador"
               />
             </ParallaxLayer>
 
@@ -150,6 +160,7 @@ const Home = () => {
               <img
                 className=" h-64 w-[486px] rounded-md grayscale-[50%] z-100  object-cover ml-[40%] shadow-2xl"
                 src={Pizza}
+                alt="Un homme et ses enfant avec une pizza, le premier achat en Bitcoin"
               />
             </ParallaxLayer>
 
@@ -157,6 +168,7 @@ const Home = () => {
               <img
                 className=" h-48 w-[382px] rounded-md grayscale-[50%] z-50  object-cover ml-[60%] shadow-2xl"
                 src={Africa}
+                alt="Personnes en Afrique payant en Bitcoin"
               />
             </ParallaxLayer>
 
@@ -175,6 +187,7 @@ const Home = () => {
               <img
                 className=" h-52 w-[464px] rounded-md grayscale-[50%] z-0  object-cover ml-[7%] shadow-2xl"
                 src={Turquie}
+                alt="Manifestation contre l'inflation en Turquie"
               />
             </ParallaxLayer>
 
@@ -182,6 +195,7 @@ const Home = () => {
               <img
                 className=" h-52 w-[464px] rounded-md grayscale-[50%] z-0  object-cover ml-[10%] shadow-2xl"
                 src={Billets}
+                alt="Planche à billets"
               />
             </ParallaxLayer>
 
@@ -189,6 +203,7 @@ const Home = () => {
               <img
                 className=" h-52 w-[464px] rounded-md grayscale-[50%] z-0  object-cover ml-[27%] shadow-2xl"
                 src={Argentine}
+                alt="Manifestation contre l'inflation en Argentine"
               />
             </ParallaxLayer>
 
@@ -196,6 +211,7 @@ const Home = () => {
               <img
                 className=" h-60 w-[500px] rounded-md grayscale-[50%] z-100  object-cover ml-[30%] shadow-2xl "
                 src={Liban}
+                alt="Manifestation contre l'inflation au Liban"
               />
             </ParallaxLayer>
 
@@ -214,6 +230,7 @@ const Home = () => {
               <img
                 className=" h-72 w-[560px] rounded-md grayscale-[50%] z-0  object-cover ml-[58%] shadow-2xl"
                 src={Elon}
+                alt="Photo d'Elon Musk"
               />
             </ParallaxLayer>
 
@@ -221,6 +238,7 @@ const Home = () => {
               <img
                 className=" h-64 w-[486px] rounded-md grayscale-[50%] z-100  object-cover ml-[40%] shadow-2xl"
                 src={Mining}
+                alt="Mine de Bitcoin"
               />
             </ParallaxLayer>
 
@@ -228,6 +246,7 @@ const Home = () => {
               <img
                 className=" h-48 w-[382px] rounded-md grayscale-[50%] z-50  object-cover ml-[60%] shadow-2xl"
                 src={Bull}
+                alt="L'oeuvre de Banksy, une petite fille, faisant face au taureau de Wall Street"
               />
             </ParallaxLayer>
 
